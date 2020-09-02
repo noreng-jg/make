@@ -1,6 +1,6 @@
-# Make Run
+# Make 
 
-A simple shell script for automating development building process of shellhub. 
+Scripts for shellhub. 
 
 ## Installation
 
@@ -11,17 +11,13 @@ git clone https://github.com/noreng-jg/make.git
 
 ```
 
+## Add many users
 
-## Usage
+python3 make/manyusers.py
 
-Compile it:
-
-```bash
-chmod +x make/run.sh  
-```
-
-Run it:
+## Build run (deprecated) 
 
 ```bash
 ./make/run.sh 
+
 ```
