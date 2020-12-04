@@ -1,6 +1,6 @@
 # Make 
 
-Scripts for shellhub. 
+Development scripts for shellhub. 
 
 ## Installation
 
@@ -13,7 +13,17 @@ git clone https://github.com/noreng-jg/make.git
 
 ## Add many users
 
+```
 python3 make/manyusers.py
+```
+
+## Remove snapshots from ui unit tests
+
+Enter the `ui` folder and run the following:
+
+```bash
+../make/unit-test/ui_remove_snaps.sh
+```
 
 ## Build run (deprecated) 
 
