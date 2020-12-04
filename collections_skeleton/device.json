@@ -1,0 +1,14 @@
+{ 
+  "uid" : "",
+  "name" : "",
+  "status" : "accepted",
+  "info" : {
+    "id" : "arch",
+    "pretty_name" : "arch",
+    "version" : "latest"
+  },
+  "identity" : {
+    "mac" : ""
+  },
+  "tenant_id" : ""
+}

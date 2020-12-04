@@ -1,0 +1,9 @@
+{
+  "tenant_id": "",
+  "priority": 1,
+  "action": "",
+  "active": false,
+  "source_ip": "",
+  "username": "",
+  "hostname": ""
+}

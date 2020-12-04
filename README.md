@@ -17,6 +17,12 @@ git clone https://github.com/noreng-jg/make.git
 python3 make/manyusers.py
 ```
 
+## Add many items to list
+
+```
+python3 make/many_insert_list.py <tenant> <number_devices> <number_sessions> <number_firewall_rules> <number_public_keys>
+```
+
 ## Remove snapshots from ui unit tests
 
 Enter the `ui` folder and run the following:

@@ -1,0 +1,11 @@
+{
+   "uid":"",
+   "device_uid": "",
+   "tenant_id":"",
+   "username": "user",
+   "ip_address":"",
+   "started_at":"",
+   "last_seen":"",
+   "authenticated":true,
+   "recorded":false
+}
