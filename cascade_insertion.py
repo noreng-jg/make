@@ -120,7 +120,7 @@ def enter_namespaces(number_nss, users, users_ids):
                 max_members_length -= 1
             else:
                 break
-        namespaces.append({"name": f"namespace{i+1}", "owner": owner_id, "tenant_id": tenant, "members": current_member_ids, "settings": {"session_record": True}})
+        namespaces.append({"name": f"namespace{i+1}", "owner": owner_id, "tenant_id": tenant, "members": current_member_ids, "settings": {"session_record": True}, "max_devices": 3})
         list_items.append(items)
         print(namespaces, list_items)
     insert_many_mongo(json.dumps(namespaces), 'namespaces')

@@ -30,16 +30,10 @@ python3 make/many_insert_list.py <tenant> <number_devices> <number_sessions> <nu
 This script will create multiple users with multiple namespaces according to values of choice, also lists defined in `make/many_insert_list.py` will be asked to be entered iteratively.
 
 ```
-python3 make/cascade_insertion.py <hashed_password>
+./make/cascade_insertion.sh
 ```
 
-if you don't have a `<hashed_password>` you can run:
-
-```
-./make/cascade_insertion.sh <password>
-```
-
-All the users generated will have the same password defined.
+All the users generated will have the same password `senha`.
 
 The script might take a while to run and when it's finished a scenario file containing the iterative captured input will be generated inside the `scenarios/` folder for future insertion reference, according to the quantity of users and namespaces inserted. 
 
@@ -49,7 +43,7 @@ To run a specific scenario you can procced as follows:
 ./make/load_scenario.sh
 ```
 
-There will be asked to define a password and then to choose one of the captured files, hit `<TAB>` to find them.
+Choose one of the captured files by hitting `<TAB>`
 
 
 ## Remove snapshots from ui unit tests

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cur=$(pwd)
-read -ep 'Enter password: ' password
+password=senha
 hashed_pass=$(printf $password | sha256sum | awk '{ print $1 }')
 scenario_folder=make/scenarios/
 cd $scenario_folder
