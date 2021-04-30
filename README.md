@@ -43,6 +43,12 @@ To run a specific scenario you can procced as follows:
 ./make/load_scenario.sh
 ```
 
+You may also generate a random scenario by specifying the numbers of users and namespaces:
+
+```
+python3 make/random_scenario.py
+```
+
 Choose one of the captured files by hitting `<TAB>`
 
 
