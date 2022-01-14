@@ -33,6 +33,7 @@ class Device(ReadFile):
         item_device["name"] = r_name()
         item_device["status"] = rs() 
         item_device["info"]["id"] = ri()
+        item_device["tags"] = []
         item_device["info"]["pretty_name"] = ri()
         item_device["identity"]["mac"] = r_mac()
         item_device["tenant_id"]=self.tenant
